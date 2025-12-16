@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+# .ignore フォルダ作成
+mkdir -p ./.ignore
+
 # gemini-cli インストール
 npm install -g @google/gemini-cli
 # spec-kit インストール
